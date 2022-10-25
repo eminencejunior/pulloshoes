@@ -4,6 +4,7 @@
 }
 body {
     background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
 }
 header {
 }
@@ -67,8 +68,38 @@ p {
     border-radius: 40px;
 }
 .buy {
-    margin-left: 24em;
+    margin-left: 17em;
     background-color: indianred;
     border: hidden;
-    padding: 20px 65px;
+    padding: 20px 60px;
+    font-size: 25px;
+    animation: more 4s;
+    position: absolute;
+   bottom: 0px;
+}
+.boot {
+    position: absolute;
+    margin-top: -30em;
+    height: 40em;
+    margin-left: 67em;
+}
+section {
+    position: relative;
+}
+.more {
+    background-color: white;
+    color: indianred;
+    padding: 20px 60px;
+    font-size: 25px;
+    animation: more 4s;
+    position: absolute;
+   bottom: -20px;
+}
+@keyframes more {
+    0% {
+        bottom: -200%;
+    }
+    100% {
+       top: (50%);
+    }
 }
