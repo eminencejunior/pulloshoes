@@ -59,8 +59,16 @@ p {
 .o {
     border: 3px solid grey;
     width: 30px;
+    margin-top: -130px;
+    margin-bottom: 110px;
     margin-left: 2.3em;
     font-size: 30px;
     padding: 25px;
     border-radius: 40px;
+}
+.buy {
+    margin-left: 24em;
+    background-color: indianred;
+    border: hidden;
+    padding: 20px 65px;
 }
