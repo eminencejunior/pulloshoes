@@ -37,19 +37,24 @@ p {
     margin-top: 70px;
     margin-left: 2.1em;
     font-size: 30px;
+    animation: more 4s;
+    position: absolute;
+   bottom: 9em;
 }
-
 .running {
     color: indianred;
     font-size: 60px;
     font-family: verdana;
     margin-top: 40px;
     margin-left: 7em;
+    animation: more 4s;
+    position: absolute;
+   bottom: 3em;
 }
 .plex {
  font-size: 70px;  
  font-family: verdana;
- margin-top: 20px;
+ margin-top: 190px;
  margin-left: 6em;
 }
 .lorem {
@@ -73,15 +78,34 @@ p {
     border: hidden;
     padding: 20px 60px;
     font-size: 25px;
-    animation: more 4s;
+    animation: buy 4s;
     position: absolute;
-   bottom: 0px;
+   bottom: -9em;
+}
+@keyframes buy {
+    0% {
+        bottom: -400%;
+    }
+    100% {
+       top: (0);
+    }
 }
 .boot {
     position: absolute;
-    margin-top: -30em;
+    margin-top: -21em;
     height: 40em;
     margin-left: 67em;
+    position: absolute;
+    animation: boot 4s ;
+    bottom: 0;
+}
+@keyframes boot {
+    0% {
+        bottom: -200%;
+    }
+    100% {
+       top: (0);
+    }
 }
 section {
     position: relative;
@@ -89,17 +113,18 @@ section {
 .more {
     background-color: white;
     color: indianred;
+    margin-left: 28em;
     padding: 20px 60px;
     font-size: 25px;
     animation: more 4s;
     position: absolute;
-   bottom: -20px;
+   bottom: -9em;
 }
 @keyframes more {
     0% {
-        bottom: -200%;
+        bottom: -400%;
     }
     100% {
-       top: (50%);
+       top: (0%);
     }
 }
