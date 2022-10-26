@@ -3,10 +3,13 @@
     margin:0;
 }
 body {
+    
+}
+main {
     background-image: url(/images/banner.png);
     background-repeat: no-repeat;
-}
-header {
+    height: 55em;
+
 }
 .nav {
     display: flex;
@@ -37,7 +40,7 @@ p {
     margin-top: 70px;
     margin-left: 2.1em;
     font-size: 30px;
-    animation: more 4s;
+    animation: more 2s;
     position: absolute;
    bottom: 9em;
 }
@@ -47,7 +50,7 @@ p {
     font-family: verdana;
     margin-top: 40px;
     margin-left: 7em;
-    animation: more 4s;
+    animation: more 2s;
     position: absolute;
    bottom: 3em;
 }
@@ -78,7 +81,7 @@ p {
     border: hidden;
     padding: 20px 60px;
     font-size: 25px;
-    animation: buy 4s;
+    animation: buy 2s;
     position: absolute;
    bottom: -9em;
 }
@@ -96,7 +99,7 @@ p {
     height: 40em;
     margin-left: 67em;
     position: absolute;
-    animation: boot 4s ;
+    animation: boot 2s ;
     bottom: 0;
 }
 @keyframes boot {
@@ -116,7 +119,7 @@ section {
     margin-left: 28em;
     padding: 20px 60px;
     font-size: 25px;
-    animation: more 4s;
+    animation: more 2s;
     position: absolute;
    bottom: -9em;
 }
@@ -127,4 +130,39 @@ section {
     100% {
        top: (0%);
     }
+}
+h2 {
+    margin-top: 130px;
+    margin-left: 1.5em;
+    font-family: verdana;
+    font-size: 50px;
+}
+.our {
+    margin-left: 2.5em;
+    font-size: 30px;
+    color: black;
+}
+div {
+}
+.first {
+    margin-top: 0px;
+    margin-left: 4em;
+    border: 4px solid white;
+    box-shadow: 10px grey;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+.second {
+    border: 10px solid white;
+    box-shadow: 3px;
+    background-color: white;
+    margin-top: 150px;
+    position: absolute;
+    padding: 10px;
+    margin-left: -140px;
+    padding: 90px;
+    height: 300px;
 }
