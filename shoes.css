@@ -42,7 +42,7 @@ p {
     font-size: 30px;
     animation: more 2s;
     position: absolute;
-   bottom: 9em;
+   bottom: 7em;
 }
 .running {
     color: indianred;
