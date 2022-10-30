@@ -279,6 +279,7 @@ margin-top: 60px;
     position: relative;
     background-color: indianred;
     margin-top: 50px;
+    
 }
 .griditem {
    background-color: white;
@@ -291,14 +292,14 @@ margin-top: 60px;
 .grid1 {
     color: black;
     position: absolute;
-    margin-top: -740px;
+    margin-top: -880px;
     margin-left: 190px;
     font-size: 30px;
 }
 .grid2 {
     color: black;
     position: absolute;
-    margin-top: -740px;
+    margin-top: -880px;
     margin-left: 730px;
     float: right;
     font-size: 30px;
@@ -306,70 +307,79 @@ margin-top: 60px;
 .grid3 {
     color: black;
     position: absolute;
-    margin-top: -740px;
+    margin-top: -880px;
     margin-left: 1300px;
     font-size: 30px;
 }
 .grid4 {
     color: black;
     position: absolute;
-    margin-top: -340px;
+    margin-top: -480px;
     margin-left: 190px;
     font-size: 30px;
 }
 .grid5 {
     color: black;
     position: absolute;
-    margin-top: -340px;
+    margin-top: -480px;
     margin-left: 730px;
     font-size: 30px;
 }
 .grid6 {
     color: black;
     position: absolute;
-    margin-top: -340px;
+    margin-top: -480px;
     margin-left: 1300px;
     font-size: 30px;
 }
 .pricetag1 {
     color: indianred;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -600px;
     margin-left: 390px;
     font-size: 60px;
 }
 .pricetag2 {
     color: indianred;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -600px;
     margin-left: 910px;
     font-size: 60px;
 }
 .pricetag3 {
     color: indianred;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -600px;
     margin-left: 1500px;
     font-size: 60px;
 }
 .pricetag4 {
     color: indianred;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -230px;
     margin-left: 390px;
     font-size: 60px;
 }
 .pricetag5 {
     color: indianred;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -230px;
     margin-left: 910px;
     font-size: 60px;
 }
 .pricetag6 {
     color: indianred;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -230px;
     margin-left: 1500px;
     font-size: 60px;
+}
+.now {
+    color: white;
+    background-color: black;
+    width: 150px;
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-left: 700px;
+    margin-bottom: 50px;
 }
