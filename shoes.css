@@ -3,7 +3,7 @@
     margin:0;
 }
 body {
-    
+    overflow-x: hidden;
 }
 main {
     background-image: url(/images/banner.png);
@@ -236,4 +236,22 @@ b {
     margin-top: 60px;
     font-size: 40px;
     margin-left: 80px;
+}
+.joging {
+    margin-top: 170px;
+    background-color: lightgrey;
+    margin-left: 70px;
+margin-right: 70px;
+}
+.jog {
+    height: 40em;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+aside {
+    float: right;
+font-size: 90px;    
+font-family: verdana;
+margin-right: 300px;
+margin-top: 60px;
 }
