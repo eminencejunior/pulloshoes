@@ -397,3 +397,8 @@ input {
     font-size: 30px;
     margin-left: 120px;
 }
+.shoerack {
+    float: right;
+    margin-top: -680px;
+    height: 40em;
+}
