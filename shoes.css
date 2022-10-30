@@ -383,3 +383,17 @@ margin-top: 60px;
     margin-left: 700px;
     margin-bottom: 50px;
 }
+.section2 {
+  margin-top: 160px;  
+}
+input {
+    padding: 20px 60px;
+    font-size: 30px;
+    border: 30px solid black;
+    margin-left: 120px;
+}
+.message {
+    padding: 90px 60px;
+    font-size: 30px;
+    margin-left: 120px;
+}
