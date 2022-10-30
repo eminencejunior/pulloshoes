@@ -141,8 +141,6 @@ h2 {
     font-size: 30px;
     color: black;
 }
-div {
-}
 .first {
     margin-bottom: -10px;
     margin-left: 5em;
@@ -241,12 +239,14 @@ b {
     margin-top: 170px;
     background-color: lightgrey;
     margin-left: 70px;
+    position: relative;
 margin-right: 70px;
 }
 .jog {
     height: 40em;
     margin-top: 60px;
     margin-left: 80px;
+    margin-bottom: 90px;
 }
 aside {
     float: right;
@@ -254,4 +254,40 @@ font-size: 90px;
 font-family: verdana;
 margin-right: 300px;
 margin-top: 60px;
+}
+.l {
+   color: indianred;
+   margin-bottom: 100px; 
+}
+.lower {
+    color: white;
+    border: 1px solid black;
+    border-style: hidden;
+    margin-left: 140px;
+    background-color: indianred;
+    padding: 20px 60px;
+    font-size: 20px;
+    position: absolute;
+    top: 540px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-column-gap: 60px;
+    grid-row-gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: indianred;
+    margin-top: 50px;
+}
+.griditem {
+   background-color: white;
+}
+.g {
+    margin-left: 130px;
+    margin-top: 70px;
+    padding: 50px;
+}
+.grid1 {
+    color: black;
 }
