@@ -290,4 +290,86 @@ margin-top: 60px;
 }
 .grid1 {
     color: black;
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 190px;
+    font-size: 30px;
+}
+.grid2 {
+    color: black;
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 730px;
+    float: right;
+    font-size: 30px;
+}
+.grid3 {
+    color: black;
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 1300px;
+    font-size: 30px;
+}
+.grid4 {
+    color: black;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 190px;
+    font-size: 30px;
+}
+.grid5 {
+    color: black;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 730px;
+    font-size: 30px;
+}
+.grid6 {
+    color: black;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 1300px;
+    font-size: 30px;
+}
+.pricetag1 {
+    color: indianred;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 390px;
+    font-size: 60px;
+}
+.pricetag2 {
+    color: indianred;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 910px;
+    font-size: 60px;
+}
+.pricetag3 {
+    color: indianred;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 1500px;
+    font-size: 60px;
+}
+.pricetag4 {
+    color: indianred;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 390px;
+    font-size: 60px;
+}
+.pricetag5 {
+    color: indianred;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 910px;
+    font-size: 60px;
+}
+.pricetag6 {
+    color: indianred;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1500px;
+    font-size: 60px;
 }
