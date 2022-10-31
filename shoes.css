@@ -394,11 +394,80 @@ input {
 }
 .message {
     padding: 90px 60px;
+    border-bottom: 120px solid black;
     font-size: 30px;
     margin-left: 120px;
+    position: relative;
 }
 .shoerack {
     float: right;
-    margin-top: -680px;
+    margin-top: -780px;
+    margin-right: 30px;
     height: 40em;
+    border-top: 40px solid indianred;
+    border-bottom: 40px solid indianred;
+    border-left: 40px solid indianred;
+}
+button {
+    position: absolute;
+    margin-top: -80px;
+    font-size: 25px;
+    margin-left: 300px;
+    padding: 20px 65px;
+}
+footer {
+    background-color: black;
+    margin-top: 130px;
+}
+.footer {
+    margin-left: 80px;
+}
+.companylogo {
+    margin-right: 30px;
+    width: 200px;
+}
+.phonelogo {
+    margin-right: 140px;
+}
+.emaillogo {
+    margin-right: 240px;
+}
+.facebooklogo {
+    margin-right: 60px;
+}
+.twitterlogo {
+    margin-right: 60px;
+}
+.inlogo {
+    margin-right: 60px;
+}
+.company {
+    color: white;
+    margin-top: -200px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.table {
+margin-left: 340px;
+margin-top: -29px;
+font-size: 25px;
+}
+.gaccount {
+    margin-left: 520px;
+    margin-top: -50px;
+}
+.companyadd {
+    margin-left: 400px;
+    margin-top: 70px;
+    font-size: 35px;
+}
+.map {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+pre {
+   color: white;
+   margin-left: 280px;
+   margin-top: -29px;
+   font-size: 30px;
 }
